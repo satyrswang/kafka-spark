@@ -1,0 +1,1 @@
+ /Users/wyq/spark-2.2.0-bin-hadoop2.7/bin/spark-submit --driver-class-path /Users/wyq/spark-2.2.0-bin-hadoop2.7/jars/*:/Users/wyq/spark-2.2.0-bin-hadoop2.7/jars/kafka/* --class "org.apache.spark.examples.streaming.KafkaWordCount" /Users/wyq/kafka/target/scala-2.11/simple-project_2.11-1.0.jar 127.0.0.1:2181 1 sex 1
